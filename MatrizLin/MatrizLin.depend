@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1741570525 source:/home/bernard/Documents/algo/MatrizLin/include/MatrizLin.h
+
+1741570158 source:/home/bernard/Documents/algo/MatrizLin/src/MatrizLin.cpp
+	"MatrizLin.h"
+	<iostream>
+
+1741570169 /home/bernard/Documents/algo/MatrizLin/include/MatrizLin.h
+
+1741568323 source:/home/bernard/Documents/algo/MatrizLin/main.cpp
+	<iostream>
+	"MatrizLin.h"
+

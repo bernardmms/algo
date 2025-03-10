@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1741466576 source:/home/bernard/Documents/algo/tad1/include/Aluno.h
+
+1741474350 source:/home/bernard/Documents/algo/tad1/src/Aluno.cpp
+	"Aluno.h"
+	<iostream>
+	<string>
+
+1741474591 /home/bernard/Documents/algo/tad1/include/Aluno.h
+	<string>
+
+1741474362 source:/home/bernard/Documents/algo/tad1/main.cpp
+	<iostream>
+	"Aluno.h"
+

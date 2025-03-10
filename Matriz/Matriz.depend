@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1741541885 source:/home/bernard/Documents/algo/Matriz/include/Matriz2d.h
+
+1741540357 source:/home/bernard/Documents/algo/Matriz/main.cpp
+	<iostream>
+
+1741542148 source:/home/bernard/Documents/algo/Matriz/src/Matriz2d.cpp
+	"Matriz2d.h"
+	<iostream>
+
+1741541885 /home/bernard/Documents/algo/Matriz/include/Matriz2d.h
+

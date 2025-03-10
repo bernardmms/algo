@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1741535890 source:/home/bernard/Documents/algo/Vetor/include/Vetor.h
+
+1741536238 source:/home/bernard/Documents/algo/Vetor/main.cpp
+	"Vetor.h"
+	<iostream>
+
+1741535890 /home/bernard/Documents/algo/Vetor/include/Vetor.h
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1741478833 source:/home/bernard/Documents/algo/Data/include/Data.h
+
+1741478965 source:/home/bernard/Documents/algo/Data/main.cpp
+	<iostream>
+	"Data.h"
+
+1741478833 /home/bernard/Documents/algo/Data/include/Data.h
+
+1741479465 source:/home/bernard/Documents/algo/Data/src/Data.cpp
+	"Data.h"
+	<iostream>
+
