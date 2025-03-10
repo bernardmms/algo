@@ -1,12 +1,10 @@
 #include "MatrizTri.h"
 #include <iostream>
-using namespace std;
 
 MatrizTri::MatrizTri(int ordem)
 {
     n = ordem;
-
-    mat = new int[n];
+    mat = new float[n*(n+1)/2];
 }
 
 MatrizTri::~MatrizTri()
@@ -16,32 +14,32 @@ MatrizTri::~MatrizTri()
 
 int MatrizTri::getIndex(int i, int j)
 {
-    if(i >= 0 && i < nl && j >= 0 && j < nc)
-        return i*nc + j;
-    else
-        return -1;
+    if(i >= 0 && i < n && j >= 0 && j < n)
+    {
+        if (j > i) return -1; // Evita acessar posições inválidas para matriz triangular inferior
+        return i*(i+1)/2 + j;
+    }
+    return -1;
 }
 
-int MatrizTri::getInd(int i, int j)
+float MatrizTri::getInd(int i, int j)
 {
     int k = getIndex(i, j);
-
     if (k != -1) {
         return mat[k];
     } else {
-        cout << "Erro: get" << endl;
+        std::cerr << "Erro: índice inválido em getInd()" << std::endl;
         exit(1);
     }
 }
 
-void MatrizTri::setInd(int i, int j, int val)
+void MatrizTri::setInd(int i, int j, float val)
 {
     int k = getIndex(i, j);
-
     if (k != -1) {
         mat[k] = val;
     } else {
-        cout << "Erro: indice invalido" << endl;
+        std::cerr << "Erro: índice inválido em setInd()" << std::endl;
         exit(1);
     }
 }

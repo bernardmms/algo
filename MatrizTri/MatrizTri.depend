@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1741569528 source:/home/bernard/Documents/algo/MatrizTri/main.cpp
+	<iostream>
+
+1741636708 source:/home/bernard/Documents/algo/MatrizTri/include/MatrizTri.h
+
+1741636630 source:/home/bernard/Documents/algo/MatrizTri/src/MatrizTri.cpp
+	"MatrizTri.h"
+	<iostream>
+
+1741636708 /home/bernard/Documents/algo/MatrizTri/include/MatrizTri.h
+

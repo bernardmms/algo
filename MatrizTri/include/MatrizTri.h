@@ -1,21 +1,20 @@
 #ifndef MATRIZTRI_H
 #define MATRIZTRI_H
 
-
 class MatrizTri
 {
     public:
-        MatrizTriInf(int ordem);
-        ∼MatrizTriInf();
+        MatrizTri(int ordem);
+        ~MatrizTri(); // Corrigido o til no destrutor
 
-        int getInd(int i, int j);
-        void setInd(int i, int j, int val);
+        float getInd(int i, int j);
+        void setInd(int i, int j, float val); // Ajustado para float
 
-    private
-        int n; // ordem da matriz triangular
-        int *vet; // representacao linear
+    private:
+        int n; // Ordem da matriz triangular
+        float *mat; // Representação linear
 
-        bool verifica(int i, int j);
+        int getIndex(int i, int j); // Método necessário
 };
 
 #endif // MATRIZTRI_H
